@@ -1,0 +1,12 @@
+.top-bar {
+  width: 100%;
+  height: 10%;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  position: fixed; /* Makes the top bar fixed at the top */
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensures the bar stays on top of other content */
+}
